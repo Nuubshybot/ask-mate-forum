@@ -54,6 +54,7 @@ This project was developed by a team of three developers. The application also a
    docker-compose up
    ```
   This command will build and start the containers for the backend, frontend, and PostgreSQL database.
+  
   4. Access the application at: http://localhost:3000
 
 ### Installation without Docker
