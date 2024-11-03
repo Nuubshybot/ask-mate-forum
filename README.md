@@ -9,6 +9,7 @@ This is a forum application with a React frontend and a Java Spring backend. Thi
   - [Features](#features)
     - [Built With](#built-with)
   - [Installation](#installation)
+    - [Installation with Docker Compose](#installation-with-docker-compose)
     - [Installation without Docker](#installation-without-docker)
   - [Usage](#usage)
   - [Contributors](#contributors)
@@ -39,6 +40,22 @@ This project was developed by a team of three developers. The application also a
 ---
 
 ## Installation
+### Installation with Docker Compose
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Attila112/ask-mate-forum.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd ask-mate-forum
+   ```
+3. Start the application with Docker Compose:
+   ```sh
+   docker-compose up
+   ```
+  This command will build and start the containers for the backend, frontend, and PostgreSQL database.
+4. Access the application at: http://localhost:3000
+
 ### Installation without Docker
 1. Clone the repository
    ```sh
